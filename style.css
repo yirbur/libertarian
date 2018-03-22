@@ -1,0 +1,42 @@
+<style>
+
+
+a:visited {
+color:gray;
+}
+
+a {
+color:gray;
+text-decoration: none;
+}
+
+#active {
+color:blue;
+font-weight: bold;
+}
+#grid {
+display: grid;
+grid-template-columns:1fr 3fr;
+
+}
+#list{
+border-right: 1px gray solid;
+padding: 10px;
+}
+#article{
+padding: 20px;
+}
+h1 {
+  font-size: 40px;
+text-align: center;
+border-bottom: gray 5px solid;
+padding: 20px;
+margin: 0px;
+}
+h2 {
+  margin-top: 0px;
+}
+body {
+margin: 0px;
+}
+</style>
